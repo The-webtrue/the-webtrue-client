@@ -16,7 +16,7 @@ const Navbar = () => {
     window.addEventListener('scroll', onChangeHeader);
     return (
         <header>
-           <nav className={changeHeader ?" navbar navbar-expand-lg navbar-dark bg-dark px-5 fixed w-full z-50 top-0 left-0 shadow-2xl shadow-kala  transition duration-500 ":"navbar navbar-expand-lg navbar-dark bg-kala px-5 fixed w-full z-50 top-0 left-0  "} >
+           <nav className={changeHeader ?"navbar navbar-expand-lg navbar-dark bg-dark px-5 fixed w-full  top-0 left-0 shadow-2xl shadow-kala  transition duration-500 ":"navbar navbar-expand-lg navbar-dark bg-kala px-5 w-full top-0 left-0  "} >
 	    <div class="container-fluid ">
 		<Link to="/" className="navbar-brand text-gray-400" >
                     <img src={logo} alt="" width="30" height="24" className="mx-2 d-inline-block align-text-top "/>
@@ -27,10 +27,10 @@ const Navbar = () => {
 		</button>
 		<div class="collapse navbar-collapse justify-content-end text-center text-md text-komla " id="navbarSupportedContent">
 		  <ul class="navbar-nav ">
-          <NavLink className="mx-10 my-2 Nav-item " to="/">Home</NavLink>			
-          <NavLink className="mx-10 my-2 Nav-item " to="/">Service</NavLink>			
-          <NavLink className="mx-10 my-2 Nav-item " to="/">About us</NavLink>			
-          <NavLink className="mx-10 my-2 Nav-item " to="/">Contact us</NavLink>			
+          <NavLink className="mx-10 my-2 Nav-item " to="/">HOME</NavLink>			
+          <NavLink className="mx-10 my-2 Nav-item " to="/">SERVICE</NavLink>			
+          <NavLink className="mx-10 my-2 Nav-item " to="/">ABOUT US</NavLink>			
+          <NavLink className="mx-10 my-2 Nav-item " to="/">CONTACT US</NavLink>			
 		  </ul>		  
 		</div>
 	  </div>
