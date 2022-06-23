@@ -8,7 +8,8 @@ module.exports = {
     colors:{
       'komla':"#EE5A27",
       'kala' : '#000000',
-    },
+      'nil' :'#007DFE',
+    }, 
     extend: {
       
     },
