@@ -1,10 +1,10 @@
 import React from 'react';
 import advice from '../../../assets/advice.jpg';
-import invest from  '../../../assets/Invest.jpg';
+import invest from  '../../../assets/inv.png';
 import safe from '../../../assets/safe.jpg';
 const Advice = () => {
     return (
-        <div>
+        <div className="md:w-5/6 mx-auto">
             <h1 className="text-center text-2xl font-bold">Advice for your Company</h1>
             <div className="justify-between py-10 px-3 items-center grid  md:grid-cols-2 ">
                 <div>
