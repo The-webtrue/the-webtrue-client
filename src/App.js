@@ -4,6 +4,7 @@ import Footer from './component/Shared/Footer/Footer';
 import Navigationbar from './component/Shared/Navbar/Navbar';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
+import Graphics from './Pages/Graphics/Graphics';
 import Home from './Pages/Home/Home';
 import Service from './Pages/Service/Service';
 import Software from './Pages/Software/Software';
@@ -20,6 +21,7 @@ function App() {
         <Route  path='/contact' element={<Contact/>}/>
         <Route  path="/web" element={<WebDev/>}/>
         <Route  path="/software" element={<Software/>}/>
+        <Route  path="/graphics" element={<Graphics/>}/>
        </Routes>
       <Footer/>
     </div>

@@ -59,7 +59,7 @@ const Navigationbar = () => {
                     <NavDropdown.Divider />
                     <NavDropdown.Item style={{color:'#000000'}} className="bg-white text-komla font-bold" href="#" as={NavLink} to="/software">Software</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item style={{color:'#000000'}} className="bg-white text-komla font-bold" href="#" as={NavLink} to="/service">Graphic Design</NavDropdown.Item>
+                    <NavDropdown.Item style={{color:'#000000'}} className="bg-white text-komla font-bold" href="#" as={NavLink} to="/graphics">Graphic Design</NavDropdown.Item>
                     </ul>
                   </li>
                   <Nav.Link style={{color:'#EE5A27'}} className="mx-5  Nav-item li" href="#" as={NavLink} to="/about">ABOUT US</Nav.Link>
