@@ -15,7 +15,7 @@ const Contact = () => {
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam nam error, repudiandae doloremque expedita iusto vero nihil nulla quam veritatis. </p>
                 </div>
             </div>
-            <div className='items-center grid   md:grid-cols-2 gap-5 p-10'>
+            <div className='items-center grid   md:grid-cols-2 gap-5 p-10 mx-auto'>
                 <div>
                     <img className="border-nil border-[2px] rounded-2xl" src={map} alt="" />
                 </div>

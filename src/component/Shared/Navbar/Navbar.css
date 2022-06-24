@@ -4,6 +4,6 @@
 .li{
     color: #EE5A27 !important;
 }
-.NavDropdow{
-    color: #EE5A27 !important;
+.dropdown-menu .show{
+    background-color: #EE5A27;
 }

@@ -48,7 +48,7 @@ const Navigationbar = () => {
                 <Nav className='text-center' >
                   <Nav.Link style={{color:'#EE5A27'}} className="mx-5  Nav-item li " href="#" as={NavLink} to="/">HOME</Nav.Link>
                   <li class="nav-item dropdown">
-                    <a style={{color:'#EE5A27'}} class="nav-link dropdown-toggle li" href="#" id="navbarDropdown basic-nav-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a style={{color:'#EE5A27'}} class="nav-link dropdown-toggle li mx-5" href="#" id="navbarDropdown basic-nav-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Service
                     </a>
                     <ul class="dropdown-menu"  aria-labelledby="navbarDropdown">
