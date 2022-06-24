@@ -9,7 +9,7 @@ const About = () => {
             <div className='sm:flex-row md:flex p-5'>
                 <div className='md:w-2/5 text-center'>
                     <img className='mx-auto' src={founder} alt="founder" />
-                    <div className="grid grid-cols-4 w-3/4 py-5 mx-auto gap-3">
+                    <div className="grid grid-cols-4 w-3/4 p-5 mx-auto gap-5">
                     <p className=" bg-komla  rounded-3xl w-10 h-10">0</p>
                     <p className=" bg-komla  rounded-3xl w-10 h-10">0</p>
                     <p className=" bg-komla  rounded-3xl w-10 h-10">0</p>
@@ -38,7 +38,7 @@ const About = () => {
                 </div>
                 <div className='md:w-2/5 text-center'>
                     <img className='mx-auto' src={founder} alt="founder" />
-                    <div className="grid grid-cols-4 w-3/4 py-5 mx-auto gap-3">
+                    <div className="grid grid-cols-4 w-3/4 p-5 mx-auto gap-5">
                     <p className=" bg-komla  rounded-3xl w-10 h-10">0</p>
                     <p className=" bg-komla  rounded-3xl w-10 h-10">0</p>
                     <p className=" bg-komla  rounded-3xl w-10 h-10">0</p>
