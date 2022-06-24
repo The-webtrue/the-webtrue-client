@@ -14,7 +14,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
   }
-
-.clr{
-   color: #EE5A27
+.black-btn{
+  @apply text-komla text-lg bg-kala w-32 py-1 my-3 border-komla border hover:shadow-komla hover:shadow-lg
+}
+.orange-btn{
+  @apply text-kala text-lg bg-komla w-32 py-1 my-3 border-kala border hover:shadow-kala hover:shadow-lg
 }

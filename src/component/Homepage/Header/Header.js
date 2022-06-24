@@ -21,6 +21,10 @@ const Header = () => {
                     responsibility to develop your talents. 
                     All you need is your interest and regular practice.
                 </p>
+                <div>
+                <button  className='black-btn mr-2'>ABOUT US</button>
+                <button className='orange-btn ml-2'>ABOUT US</button>
+                </div>
             </div>
             
             <div className="">
