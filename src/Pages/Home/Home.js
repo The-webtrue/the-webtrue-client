@@ -1,9 +1,9 @@
 import React from 'react';
-import AboutUs from '../../component/Homepage/AboutUs/AboutUs';
 import Advice from '../../component/Homepage/Advice/Advice';
 import Header from '../../component/Homepage/Header/Header';
 import Services from '../../component/Homepage/Services/Services';
 import WorkDone from '../../component/Homepage/workDone/WorkDone';
+import AboutUs from '../../component/Shared/AboutUs/AboutUs';
 
 const Home = () => {
     return (
