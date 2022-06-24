@@ -3,8 +3,8 @@ import React from 'react';
 const Form = () => {
     return (
         <div className="p-6">
-            <h1 className='text-2xl p-5 font-bold'> If you have any questions, Please let us know</h1>
-    <form>
+            <h1 className='text-2xl p-5 font-bold text-center'> If you have any questions, Please let us know</h1>
+    <form className='p-5 lg:w-3/4 mx-auto'>
     <div className="flex flex-col mb-6">
     <input type="email" id="email" className="bg-gray-50 border-[3px] border-komla text-gray-900 text-md rounded focus:ring-komla focus:outline-none focus:shadow-lg focus:shadow-komla block w-full p-2.5 " placeholder="Email" required/>
         </div>

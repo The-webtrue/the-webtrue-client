@@ -40,7 +40,7 @@ const Navigationbar = () => {
               <Navbar collapseOnSelect expand="lg"  className={changeHeader ?"navbar navbar-expand-lg navbar-dark bg-dark sm:px-5 fixed w-full  top-0 left-0 shadow-2xl shadow-kala  transition duration-500 ":"navbar navbar-expand-lg navbar-dark bg-kala sm:px-5 w-full top-0 left-0  "} >
               <Container>
               <Navbar.Brand className= "flex" as={Link} to="/"><img src={logo} alt="" width="30" height="24" className="mx-2 d-inline-block align-text-top "/>
-                    <h1 className='hidden md:block'>The Web True</h1></Navbar.Brand>
+                    <h1 className='hidden sm:block'>The Web True</h1></Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
