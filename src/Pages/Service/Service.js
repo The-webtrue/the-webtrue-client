@@ -7,7 +7,7 @@ const Service = () => {
         <div>
             <div className='text-center p-20'>
             <h1 className='text-3xl font-bold'>How Can Web True Assist You</h1>
-            <p className='text-md text-komla'>Web True Provieded Servives </p>
+            <p className='text-lg text-komla font-bold'>Web True Provieded Servives </p>
             </div>
             <div className='items-center grid  md:grid-cols-2 lg:grid-cols-3 gap-5 mx-5 lg:px-20 mb-10'>
                 <div className='text-center flex-row items-center justify-center m-auto p-3 border shadow-lg'>

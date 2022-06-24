@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from "../../../assets/logo.png";
 import {NavLink, Link} from 'react-router-dom';
 import './Navbar.css' ;
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 const Navigationbar = () => {
     const [changeHeader, setChangeHeader] = useState(false);
@@ -47,7 +47,21 @@ const Navigationbar = () => {
                 </Nav>
                 <Nav className='text-center' >
                   <Nav.Link style={{color:'#EE5A27'}} className="mx-5  Nav-item li " href="#" as={NavLink} to="/">HOME</Nav.Link>
-                  <Nav.Link style={{color:'#EE5A27'}} className="mx-5  Nav-item li" href="#" as={NavLink} to="/service">SERVICE</Nav.Link>
+                  <li class="nav-item dropdown">
+                    <a style={{color:'#EE5A27'}} class="nav-link dropdown-toggle li" href="#" id="navbarDropdown basic-nav-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Service
+                    </a>
+                    <ul class="dropdown-menu"  aria-labelledby="navbarDropdown">
+                    
+                    <NavDropdown.Item style={{color:'#000000'}} className="bg-white text-komla font-bold" href="#" as={NavLink} to="/service">All Service</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item style={{color:'#000000'}} className="bg-white text-komla font-bold" href="#" as={NavLink} to="/service">Web Design And Development</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item style={{color:'#000000'}} className="bg-white text-komla font-bold" href="#" as={NavLink} to="/service">Software</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item style={{color:'#000000'}} className="bg-white text-komla font-bold" href="#" as={NavLink} to="/service">Graphic Design</NavDropdown.Item>
+                    </ul>
+                  </li>
                   <Nav.Link style={{color:'#EE5A27'}} className="mx-5  Nav-item li" href="#" as={NavLink} to="/about">ABOUT US</Nav.Link>
                   <Nav.Link style={{color:'#EE5A27'}} className="mx-5  Nav-item li" href="#" as={NavLink} to="/contact">CONTACT US</Nav.Link>
                 </Nav>
