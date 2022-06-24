@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import logo from "../../assets/logo.png";
+import logo from "../../../assets/logo.png";
 import {NavLink, Link} from 'react-router-dom';
 import './Navbar.css' ;
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 const Navigationbar = () => {
     const [changeHeader, setChangeHeader] = useState(false);
@@ -46,10 +46,10 @@ const Navigationbar = () => {
                 <Nav className="me-auto">
                 </Nav>
                 <Nav className='text-center' >
-                  <Nav.Link style={{color:'#EE5A27'}} className="mx-5 my-2 Nav-item li " href="#" as={NavLink} to="/">HOME</Nav.Link>
-                  <Nav.Link style={{color:'#EE5A27'}} className="mx-5 my-2 Nav-item li" href="#" as={NavLink} to="/service">SERVICE</Nav.Link>
-                  <Nav.Link style={{color:'#EE5A27'}} className="mx-5 my-2 Nav-item li" href="#" as={NavLink} to="/about">ABOUT US</Nav.Link>
-                  <Nav.Link style={{color:'#EE5A27'}} className="mx-5 my-2 Nav-item li" href="#" as={NavLink} to="/contact">CONTACT US</Nav.Link>
+                  <Nav.Link style={{color:'#EE5A27'}} className="mx-5  Nav-item li " href="#" as={NavLink} to="/">HOME</Nav.Link>
+                  <Nav.Link style={{color:'#EE5A27'}} className="mx-5  Nav-item li" href="#" as={NavLink} to="/service">SERVICE</Nav.Link>
+                  <Nav.Link style={{color:'#EE5A27'}} className="mx-5  Nav-item li" href="#" as={NavLink} to="/about">ABOUT US</Nav.Link>
+                  <Nav.Link style={{color:'#EE5A27'}} className="mx-5  Nav-item li" href="#" as={NavLink} to="/contact">CONTACT US</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
               </Container>
